@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-20T09:25:46.457Z" agent="5.0 (X11; Ubuntu)" etag="l_4FBJWG-XNrbcSpaift" version="20.5.1" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-11-20T09:35:45.003Z" agent="5.0 (X11; Ubuntu)" etag="_fco85A-oBeYhi377ZDj" version="20.5.1" type="github" pages="2">
   <diagram id="33bkx_uLFFvx7bbCJEID" name="Project Diagram">
     <mxGraphModel dx="2249" dy="-405" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -150,6 +150,9 @@
             <mxPoint x="750" y="1660" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="PECkr3KOSNkat3kT2Lx_-1" value="&lt;b&gt;Project Diagram&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=24;" vertex="1" parent="1">
+          <mxGeometry x="625" y="1220" width="210" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
@@ -158,6 +161,9 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="2qNbUPaYI21xxkBy5dt9-1" value="&lt;b&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;Telegram-api&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;strokeWidth=17;" vertex="1" parent="1">
+          <mxGeometry x="295" y="20" width="170" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
