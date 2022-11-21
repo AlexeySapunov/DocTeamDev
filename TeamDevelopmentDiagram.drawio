@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-21T08:41:22.950Z" agent="5.0 (X11; Ubuntu)" etag="JvL5EKk_uCVNIIVL5UTr" version="20.5.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-11-21T11:54:13.462Z" agent="5.0 (X11; Ubuntu)" etag="XPVTv3cUoOeVCt-vxfYE" version="20.5.3" type="github" pages="2">
   <diagram id="33bkx_uLFFvx7bbCJEID" name="Project Diagram">
     <mxGraphModel dx="2249" dy="-405" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -162,7 +162,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="2TUahYwFr2ZOs3O7lW57-2" value="Bot" style="shape=umlFrame;whiteSpace=wrap;html=1;strokeWidth=4;fontFamily=Helvetica;fontSize=13;width=60;height=30;" vertex="1" parent="1">
-          <mxGeometry x="-550" y="430" width="1680" height="1180" as="geometry" />
+          <mxGeometry x="-550" y="430" width="2110" height="1230" as="geometry" />
         </mxCell>
         <mxCell id="bvVBXHYA-XdIXY2wBf3J-25" value="Config" style="shape=umlFrame;whiteSpace=wrap;html=1;strokeWidth=4;fontFamily=Helvetica;fontSize=13;width=60;height=30;" parent="1" vertex="1">
           <mxGeometry x="20" y="50" width="380" height="270" as="geometry" />
@@ -543,6 +543,72 @@
               <mxPoint x="-140" y="360" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="2TUahYwFr2ZOs3O7lW57-65" value="Commands" style="shape=umlFrame;whiteSpace=wrap;html=1;strokeWidth=3;fontFamily=Helvetica;fontSize=13;width=80;height=30;" vertex="1" parent="1">
+          <mxGeometry x="840" y="700" width="660" height="920" as="geometry" />
+        </mxCell>
+        <mxCell id="2TUahYwFr2ZOs3O7lW57-66" value="Commands interface&#xa;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeWidth=2;fontFamily=Helvetica;fontSize=13;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="730" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2TUahYwFr2ZOs3O7lW57-67" value="execute(update)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeWidth=1;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="2TUahYwFr2ZOs3O7lW57-66">
+          <mxGeometry y="26" width="230" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="2TUahYwFr2ZOs3O7lW57-70" value="CommandContainer" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeWidth=2;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="1220" y="820" width="230" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="2TUahYwFr2ZOs3O7lW57-71" value="MobileDevelopmentSection&#xa;&#xa;SendBotMessageService&#xa;&#xa;CommandName&#xa;&#xa;Button" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeWidth=1;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="2TUahYwFr2ZOs3O7lW57-70">
+          <mxGeometry y="26" width="230" height="124" as="geometry" />
+        </mxCell>
+        <mxCell id="2TUahYwFr2ZOs3O7lW57-72" value="BackMainCallBackCommand" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeWidth=2;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="1220" y="995" width="230" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="2TUahYwFr2ZOs3O7lW57-73" value="MainSection&#xa;        &#xa;SendBotMessageService&#xa;&#xa;        &#xa;          " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeWidth=1;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="2TUahYwFr2ZOs3O7lW57-72">
+          <mxGeometry y="26" width="230" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="2TUahYwFr2ZOs3O7lW57-74" value="HelpCommand" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeWidth=2;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="1220" y="1150" width="230" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="2TUahYwFr2ZOs3O7lW57-75" value="SendBotMessageService&#xa;        &#xa;&#xa;&#xa;&#xa;        &#xa;          " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeWidth=1;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="2TUahYwFr2ZOs3O7lW57-74">
+          <mxGeometry y="26" width="230" height="94" as="geometry" />
+        </mxCell>
+        <mxCell id="2TUahYwFr2ZOs3O7lW57-76" value="SelectSectionCommand" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeWidth=2;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="1220" y="1310" width="230" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="2TUahYwFr2ZOs3O7lW57-77" value="SendBotMessageService&#xa;&#xa;SectionHub selectSection(update)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeWidth=1;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="2TUahYwFr2ZOs3O7lW57-76">
+          <mxGeometry y="26" width="230" height="94" as="geometry" />
+        </mxCell>
+        <mxCell id="2TUahYwFr2ZOs3O7lW57-78" value="CommandName enum&#xa;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeWidth=2;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="880" y="820" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2TUahYwFr2ZOs3O7lW57-79" value="getCommandName()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeWidth=1;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="2TUahYwFr2ZOs3O7lW57-78">
+          <mxGeometry y="26" width="230" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="2TUahYwFr2ZOs3O7lW57-80" value="ArticleListCallBackCommand" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeWidth=2;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="880" y="995" width="230" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="2TUahYwFr2ZOs3O7lW57-81" value="    Button&#xa;        &#xa;SendBotMessageService&#xa;&#xa;CommandName        &#xa;        &#xa;          " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeWidth=1;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="2TUahYwFr2ZOs3O7lW57-80">
+          <mxGeometry y="26" width="230" height="94" as="geometry" />
+        </mxCell>
+        <mxCell id="2TUahYwFr2ZOs3O7lW57-82" value="BackSelectCategoriesCommand" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeWidth=2;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="880" y="1150" width="230" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="2TUahYwFr2ZOs3O7lW57-84" value="MainCommand" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeWidth=2;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="880" y="1310" width="230" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="2TUahYwFr2ZOs3O7lW57-85" value="MainSection&#xa;        &#xa;SendBotMessageService&#xa;&#xa;        &#xa;          " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeWidth=1;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="2TUahYwFr2ZOs3O7lW57-84">
+          <mxGeometry y="26" width="230" height="94" as="geometry" />
+        </mxCell>
+        <mxCell id="2TUahYwFr2ZOs3O7lW57-86" value="DesignSection" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeWidth=2;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="880" y="1470" width="230" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="2TUahYwFr2ZOs3O7lW57-87" value="    Button&#xa;        &#xa;SelectInlineKeyBoard&#xa;&#xa;CommandName        &#xa;        &#xa;          " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeWidth=1;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="2TUahYwFr2ZOs3O7lW57-86">
+          <mxGeometry y="26" width="230" height="94" as="geometry" />
+        </mxCell>
+        <mxCell id="2TUahYwFr2ZOs3O7lW57-88" value="DesignSection" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeWidth=2;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="1220" y="1470" width="230" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="2TUahYwFr2ZOs3O7lW57-89" value="    Button&#xa;        &#xa;SelectInlineKeyBoard&#xa;&#xa;CommandName        &#xa;        &#xa;          " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeWidth=1;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="2TUahYwFr2ZOs3O7lW57-88">
+          <mxGeometry y="26" width="230" height="94" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
