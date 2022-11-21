@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-21T14:17:17.811Z" agent="5.0 (X11; Ubuntu)" etag="SoYtUKERWhR77tjEFAjk" version="20.5.3" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-11-21T14:29:51.086Z" agent="5.0 (X11; Ubuntu)" etag="CUk3K4XCpZvWKbDXdmtw" version="20.5.3" type="github" pages="3">
   <diagram id="33bkx_uLFFvx7bbCJEID" name="Project Diagram">
     <mxGraphModel dx="2249" dy="-405" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -157,7 +157,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="guSkttVNabBWvX2afAPE" name="Telegram-Api Diagram">
-    <mxGraphModel dx="3197" dy="1273" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2858" dy="1091" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -577,7 +577,7 @@
         <mxCell id="2TUahYwFr2ZOs3O7lW57-77" value="SendBotMessageService&#xa;&#xa;SectionHub selectSection(update)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeWidth=1;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="2TUahYwFr2ZOs3O7lW57-76">
           <mxGeometry y="26" width="230" height="64" as="geometry" />
         </mxCell>
-        <mxCell id="2TUahYwFr2ZOs3O7lW57-78" value="CommandName enum&#xa;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeWidth=2;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="1">
+        <mxCell id="2TUahYwFr2ZOs3O7lW57-78" value="CommandName enum&#xa;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeWidth=2;fontFamily=Helvetica;fontSize=13;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="1220" y="730" width="230" height="60" as="geometry" />
         </mxCell>
         <mxCell id="2TUahYwFr2ZOs3O7lW57-79" value="getCommandName()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeWidth=1;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="2TUahYwFr2ZOs3O7lW57-78">
@@ -960,6 +960,18 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="890" y="1270" as="sourcePoint" />
             <mxPoint x="790" y="1350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hx54YapSiM5HUc9cBSM9-1" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="bvVBXHYA-XdIXY2wBf3J-19">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="490" y="920" as="sourcePoint" />
+            <mxPoint x="1220" y="840" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="30" y="510" />
+              <mxPoint x="30" y="410" />
+              <mxPoint x="1200" y="410" />
+              <mxPoint x="1200" y="840" />
+            </Array>
           </mxGeometry>
         </mxCell>
       </root>
