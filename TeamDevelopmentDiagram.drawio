@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-21T13:27:06.548Z" agent="5.0 (X11; Ubuntu)" etag="bvSSHXB_fweliCkAyIaP" version="20.5.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-11-21T14:17:17.811Z" agent="5.0 (X11; Ubuntu)" etag="SoYtUKERWhR77tjEFAjk" version="20.5.3" type="github" pages="3">
   <diagram id="33bkx_uLFFvx7bbCJEID" name="Project Diagram">
     <mxGraphModel dx="2249" dy="-405" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -961,6 +961,160 @@
             <mxPoint x="890" y="1270" as="sourcePoint" />
             <mxPoint x="790" y="1350" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="_LEEcaprMH6za9HHqUe9" name="Меню бота">
+    <mxGraphModel dx="1422" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="lovqc2M4I8PmR1d_y_yR-2" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.012;entryY=0.106;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="lovqc2M4I8PmR1d_y_yR-20" target="lovqc2M4I8PmR1d_y_yR-25">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="330" as="sourcePoint" />
+            <mxPoint x="440" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lovqc2M4I8PmR1d_y_yR-3" value="На экран регистрации" style="rounded=0;whiteSpace=wrap;html=1;fillStyle=auto;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="60" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lovqc2M4I8PmR1d_y_yR-4" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="lovqc2M4I8PmR1d_y_yR-22" target="lovqc2M4I8PmR1d_y_yR-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="330" as="sourcePoint" />
+            <mxPoint x="440" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lovqc2M4I8PmR1d_y_yR-5" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="lovqc2M4I8PmR1d_y_yR-30" target="lovqc2M4I8PmR1d_y_yR-32">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="553" y="320" as="sourcePoint" />
+            <mxPoint x="603" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lovqc2M4I8PmR1d_y_yR-6" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.994;entryY=0.115;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="lovqc2M4I8PmR1d_y_yR-33" target="lovqc2M4I8PmR1d_y_yR-25">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="553" y="320" as="sourcePoint" />
+            <mxPoint x="603" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lovqc2M4I8PmR1d_y_yR-7" value="На экран с комментариями" style="rounded=0;whiteSpace=wrap;html=1;fillStyle=auto;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="803" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lovqc2M4I8PmR1d_y_yR-8" value="На экран с параметрами поиска" style="rounded=0;whiteSpace=wrap;html=1;fillStyle=auto;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="803" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lovqc2M4I8PmR1d_y_yR-9" value="На экран добавления публикации" style="rounded=0;whiteSpace=wrap;html=1;fillStyle=auto;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="803" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lovqc2M4I8PmR1d_y_yR-10" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="lovqc2M4I8PmR1d_y_yR-37" target="lovqc2M4I8PmR1d_y_yR-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="793" y="180" as="sourcePoint" />
+            <mxPoint x="843" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lovqc2M4I8PmR1d_y_yR-11" value="Лайк публикации" style="ellipse;whiteSpace=wrap;html=1;fillStyle=auto;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="803" y="130" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="lovqc2M4I8PmR1d_y_yR-12" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="lovqc2M4I8PmR1d_y_yR-38" target="lovqc2M4I8PmR1d_y_yR-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="813" y="530" as="sourcePoint" />
+            <mxPoint x="863" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lovqc2M4I8PmR1d_y_yR-13" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="lovqc2M4I8PmR1d_y_yR-36" target="lovqc2M4I8PmR1d_y_yR-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="863" y="560" as="sourcePoint" />
+            <mxPoint x="913" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lovqc2M4I8PmR1d_y_yR-14" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="lovqc2M4I8PmR1d_y_yR-35" target="lovqc2M4I8PmR1d_y_yR-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="823" y="460" as="sourcePoint" />
+            <mxPoint x="873" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lovqc2M4I8PmR1d_y_yR-15" value="Удалить публикацию" style="ellipse;whiteSpace=wrap;html=1;fillStyle=auto;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="803" y="361" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="lovqc2M4I8PmR1d_y_yR-16" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="lovqc2M4I8PmR1d_y_yR-34" target="lovqc2M4I8PmR1d_y_yR-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="733" y="500" as="sourcePoint" />
+            <mxPoint x="783" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lovqc2M4I8PmR1d_y_yR-17" value="Пунктиром обведены группы кнопок - это уровни меню.&lt;br&gt;Скругленные прямоугольники - это клавиши меню (кнопки).&lt;br&gt;Прямоугольники - это экраны для определенных манипуляций. Здесь могут быть свои кнопки. Эти экраны тоже нужно прорисовать, когда по ним появится четкое понимание.&lt;br&gt;Овалы - законченные действия, например, нажал на Удалить, публикация скрылась.&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;Основная часть экрана занята n последними публикациями. Внизу экрана кнопки меню. Получается три уровня меню.&lt;/span&gt;&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Первый уровень Главное меню. При входе попадаем на Экран ввода учетных данных. Если пароль правильный, то пользователь залогинился и пошел в меню разделы авторизованным.&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Второй уровень Меню с разделами. Каждому разделу по кнопке. Кнопка Назад, скорее всего, не нужна. Разве что кто-то перелогиниться решит. Или наоборот просматривал не залогининый. Решил залогиниться для лайка.&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;Третий уровень Меню выбранного раздела.&lt;/div&gt;&lt;div style=&quot;&quot;&gt;Кнопка Назад возвращает в Меню разделы.&lt;/div&gt;&lt;div style=&quot;&quot;&gt;Кнопка Поставить лай плюсует выбранную публикацию.&lt;/div&gt;&lt;div style=&quot;&quot;&gt;Кнопка Удалить скрывает публикацию.&lt;/div&gt;&lt;div style=&quot;&quot;&gt;Кнопка Комментировать переводит на Экран с комментариями. &lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;Кнопка Поиск переводит на Экран с поиском. &lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;Кнопка Добавить переводит на Экран добавления публикации. &lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;Кнопки Комментировать,Поставить лайк, Добавить должны быть не активны или не видны не авторизованному пользователю.&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;Кнопка Добавить находится внутри Меню выбранного раздела. &lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;Кнопку Поиск вынести в меню с разделами. &lt;br&gt;&lt;/div&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fillStyle=auto;fillColor=default;align=left;" vertex="1" parent="1">
+          <mxGeometry x="40" y="400" width="720" height="420" as="geometry" />
+        </mxCell>
+        <mxCell id="lovqc2M4I8PmR1d_y_yR-18" value="На экран ввода учетных данных" style="rounded=0;whiteSpace=wrap;html=1;fillStyle=auto;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="220" y="95" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lovqc2M4I8PmR1d_y_yR-19" value="Главное меню" style="rounded=0;whiteSpace=wrap;html=1;fillStyle=auto;dashed=1;fillColor=none;container=0;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="160" height="170" as="geometry">
+            <mxRectangle x="40" y="10" width="50" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lovqc2M4I8PmR1d_y_yR-20" value="Разделы" style="rounded=1;whiteSpace=wrap;html=1;container=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="55" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lovqc2M4I8PmR1d_y_yR-21" value="Вход" style="rounded=1;whiteSpace=wrap;html=1;container=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="105" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lovqc2M4I8PmR1d_y_yR-22" value="Регистрация" style="rounded=1;whiteSpace=wrap;html=1;container=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="156" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lovqc2M4I8PmR1d_y_yR-23" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="lovqc2M4I8PmR1d_y_yR-18" target="lovqc2M4I8PmR1d_y_yR-25">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="350" as="sourcePoint" />
+            <mxPoint x="440" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lovqc2M4I8PmR1d_y_yR-24" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="lovqc2M4I8PmR1d_y_yR-21" target="lovqc2M4I8PmR1d_y_yR-18">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="210" y="250" as="sourcePoint" />
+            <mxPoint x="260" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lovqc2M4I8PmR1d_y_yR-25" value="Меню разделы" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillStyle=auto;fillColor=none;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;container=0;" vertex="1" parent="1">
+          <mxGeometry x="403" y="40" width="160" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="lovqc2M4I8PmR1d_y_yR-26" value="Программирование" style="rounded=1;whiteSpace=wrap;html=1;container=0;" vertex="1" parent="1">
+          <mxGeometry x="423" y="60" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lovqc2M4I8PmR1d_y_yR-27" value="Front-end" style="rounded=1;whiteSpace=wrap;html=1;container=0;" vertex="1" parent="1">
+          <mxGeometry x="423" y="110" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lovqc2M4I8PmR1d_y_yR-28" value="Анализ данных" style="rounded=1;whiteSpace=wrap;html=1;container=0;" vertex="1" parent="1">
+          <mxGeometry x="423" y="160" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lovqc2M4I8PmR1d_y_yR-29" value="Менеджмент" style="rounded=1;whiteSpace=wrap;html=1;container=0;" vertex="1" parent="1">
+          <mxGeometry x="423" y="210" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lovqc2M4I8PmR1d_y_yR-30" value="Раздел N" style="rounded=1;whiteSpace=wrap;html=1;container=0;" vertex="1" parent="1">
+          <mxGeometry x="423" y="267" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lovqc2M4I8PmR1d_y_yR-31" value="Назад (?)" style="rounded=1;whiteSpace=wrap;html=1;container=0;" vertex="1" parent="1">
+          <mxGeometry x="423" y="316" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lovqc2M4I8PmR1d_y_yR-32" value="Меню выбранного раздела" style="rounded=0;whiteSpace=wrap;html=1;fillStyle=auto;fillColor=none;dashed=1;container=0;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" vertex="1" parent="1">
+          <mxGeometry x="603" y="40" width="160" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="lovqc2M4I8PmR1d_y_yR-33" value="Назад" style="rounded=1;whiteSpace=wrap;html=1;fillStyle=auto;fillColor=default;container=0;" vertex="1" parent="1">
+          <mxGeometry x="623" y="58" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lovqc2M4I8PmR1d_y_yR-34" value="Удалить" style="rounded=1;whiteSpace=wrap;html=1;fillStyle=auto;fillColor=default;container=0;" vertex="1" parent="1">
+          <mxGeometry x="623" y="310" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lovqc2M4I8PmR1d_y_yR-35" value="Добавить" style="rounded=1;whiteSpace=wrap;html=1;fillStyle=auto;fillColor=#f5f5f5;container=0;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="623" y="260" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lovqc2M4I8PmR1d_y_yR-36" value="Поиск" style="rounded=1;whiteSpace=wrap;html=1;fillStyle=auto;fillColor=default;container=0;" vertex="1" parent="1">
+          <mxGeometry x="623" y="210" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lovqc2M4I8PmR1d_y_yR-37" value="Комментировать" style="rounded=1;whiteSpace=wrap;html=1;fillStyle=auto;fillColor=#f5f5f5;container=0;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="623" y="110" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lovqc2M4I8PmR1d_y_yR-38" value="Поставить&lt;br&gt;лайк" style="rounded=1;whiteSpace=wrap;html=1;fillStyle=auto;fillColor=#f5f5f5;container=0;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="623" y="160" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
