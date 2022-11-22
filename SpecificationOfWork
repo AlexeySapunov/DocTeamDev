@@ -33,9 +33,9 @@
 
 3. ТРЕБОВАНИЯ К СТЕКУ ТЕХНОЛОГИЙ
 
-    - Data base:
+    - Data base: PostgreSQL, Hibernate, JPA
     - Backend: Java 11, Spring Boot
-    - Frontend: TelegramBot API
+    - Frontend: TelegramBot API, Spring web (Admin), Thymeleaf(Admin)
 
 4. ОПИСАНИЕ РОЛЕЙ
 
